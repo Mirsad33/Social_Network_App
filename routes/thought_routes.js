@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const session = require("express-session");
-const { Thought, Reaction } = require("../model");
+const { Thought, Reaction } = require("../models");
 const ObjectId = require("mongodb").ObjectId;
 
 // CREATE A NEW THOUGHT

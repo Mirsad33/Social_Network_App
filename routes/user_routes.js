@@ -1,7 +1,8 @@
 const router = require("express").Router();
-const { User } = require("../model");
+const { User } = require("../models");
 const ObjectId = require("mongodb").ObjectId;
 
+// ALL of these ROUTES are PREFIXED with '/api'
 // CREATE A NEW USER
 router.post("/users", async (req, res) => {
   try {

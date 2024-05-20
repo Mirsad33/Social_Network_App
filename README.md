@@ -53,4 +53,4 @@ To get started with this API, follow these steps:
 
 ## Author
 
-[Your Name](#) - [GitHub Profile](#)
+[Mirsad Abedinoski](#) - [github.com/Mirsad33](#)

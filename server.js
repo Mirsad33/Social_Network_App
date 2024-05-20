@@ -1,6 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const dotenv = require('dotenv').config()
+const dotenv = require('dotenv')
+
+dotenv.config()
 
 
 // EXPRESS SERVER
@@ -19,6 +21,7 @@ const user_routes = require('./routes/user_routes')
 const thought_routes = require('./routes/thought_routes')
 
 app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 app.use(express.static('public'))
 
 
